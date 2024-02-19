@@ -6,7 +6,6 @@ const port = 3042;
 const secp = require('ethereum-cryptography/secp256k1')
 const { keccak256 } = require('ethereum-cryptography/keccak')
 const { utf8ToBytes, toHex } = require('ethereum-cryptography/utils')
-const { bufferToHex } = require('ethereumjs-util')
 
 app.use(cors());
 app.use(express.json());
